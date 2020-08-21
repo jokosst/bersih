@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+		 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/framework7.bundle.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<!-- <meta http-equiv="refresh" content="30"> -->
+		<title>Contoh Script Input Koordinat Google Map dengan Cara Geser Marker</title>
+		<script type="text/javascript" src="assets/map/js/jquery-1.7.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/map/css/jquery-gmaps-latlon-picker.css"/>
+		<script type="text/javascript" src="assets/map/js/jquery-gmaps-latlon-picker.js"></script>
+		<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8AguK8AiKn0oltaHBfCfpJF2gnPsTmLU&callback"></script> --> 
+
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA8AguK8AiKn0oltaHBfCfpJF2gnPsTmLU&sensor=false"></script>
+	</head>
+	<body>
+		<h3>Input Koordinat Peta</h3>
+		<fieldset class="gllpLatlonPicker">
+            <div class="gllpMap">Google Maps</div>
+            Latitude : <input type="text" name="lati" class="gllpLatitude" value="0.8956175685405277"/>
+            Longitude : <input type="text" name="longi" class="gllpLongitude" value="108.97582366943357"/>
+            Zoom : <input type="text" name="zoom" class="gllpZoom" value="13"/>
+        </fieldset>
+
+
+	</body>
+	 <!-- <script src="assets/js/framework7.bundle.min.js"></script> -->
+    <script src="assets/js/routes.js"></script>
+    <script src="assets/js/app.js"></script> 
+</html>

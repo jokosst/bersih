@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+
+    <link rel="icon" href="assets/images/fly.png">
+    <title>APP</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/framework7.bundle.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+
+</head>
+<body>
+    
+    <div id="app">
+
+        <div class="view view-main view-init ios-edges" data-url="/">
+            <div class="page page-home page-with-subnavbar">
+                <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+                    <div class="toolbar-inner">
+                        <a href="#tab-home" class="tab-link tab-link-active">
+                            <i class="fas fa-home"></i>
+                            <span class="tabbar-label">Beranda</span>
+                        </a>
+                        <a href="#" class="tab-link">
+                            <i class="fas fa-newspaper"></i>
+                            <span class="tabbar-label">Aktifitas</span>
+                        </a>
+                        <a href="#" class="tab-link">
+                            <i class="fas fa-comments"></i>
+                            <span class="tabbar-label">Chat</span>
+                        </a>
+                        <a href="#" class="tab-link">
+                            <i class="fas fa-inbox"></i>
+                            <span class="tabbar-label">Inbox</span>
+                        </a>
+                        <a href="#tab-account" class="tab-link">
+                            <i class="fas fa-user"></i>
+                            <span class="tabbar-label">Akun</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div id="tab-home" class="tab tab-active tab-home">
+                        <!-- home -->
+
+                        <!-- navbar home -->
+                        <div class="navbar navbar-home" style="margin-bottom: -50px">
+                            <div class="navbar-inner">
+                                <div class="left">
+                                    <a href="#" class="panel-open" data-panel="left">
+        <img src="assets/images/user-seller1.png" style="width: 40px;border-radius: 50%">
+                                    </a>
+                                </div>
+                                
+                                <div class="title">
+                                    <h2>Joko Susanto</h2>
+                                </div>
+                                <div class="right">
+                                    <!-- <a href="#" class="button secondary-button">
+                                        <i class="fas fa-wallet" style="margin-right: -1px"></i>
+                                        IDR 0
+                                    </a> -->
+                                    <a href="#" class="button secondary-button">
+                                        <i class="fas fa-heart" style="margin-right: -1px"></i>
+                                        168 Poin
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                       <!--  <div class="subnavbar">
+                            
+                        </div> -->
+                        <!-- end navbar home -->
+
+                        <!-- sidebarbar or panel -->
+                       
+                        <!-- end sidebarbar or panel -->
+
+                        <!-- slider -->
+                        <div class="slider">
+                            <div class="container">
+                                <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="10" class="swiper-container swiper-init swiper-container-horizontal">
+                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="content">
+                                                <div class="mask"></div>
+                                                <img src="assets/images/clean.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="content">
+                                                <div class="mask"></div>
+                                                <img src="assets/images/clean2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="content">
+                                                <div class="mask"></div>
+                                                <img src="assets/images/clean3.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end slider -->
+
+                        <!-- cateogries -->
+                        <div class="categories segments">
+                            <div class="container">
+                                <div class="row">
+                                   <a href="#" style="margin-left: 10px">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span style="margin-left: 5px"> Jl.Karna Sosial</span>
+                             <i style="margin-left: 15px;" class="fas fa-angle-double-right"></i>
+                                    </a> 
+                                <form class="searchbar searchbar-init" data-search-container=".search-list" data-search-in=".item-title">
+                                <div class="searchbar-inner">
+                                    <div class="searchbar-input-wrap">
+                                        <input type="search" placeholder="Mau Ngerjain Apa?">
+                                        <i class="searchbar-icon"></i>
+                                        <span class="input-clear-button"></span>
+                                    </div>
+                                    <span class="searchbar-disable-button">Batal</span>
+                                </div>
+                            </form>
+                        </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <div class="content">
+                                            <a href="/mobil/">
+                                                <div class="icon">
+                                                   <center><img src="assets/images/car.png" style="padding-top: 9px;"></center>
+                                                </div>
+                                                <span>BersihMobil</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-25">
+                                        <div class="content">
+                                            <a href="/#/">
+                                                <div class="icon">
+                                                    <center><img src="assets/images/air-conditioner.png" style="padding-top: 9px;"></center>
+                                                </div>
+                                                <span>BeresAC</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                     <div class="col-25">
+                                        <div class="content">
+                                            <a href="/#/">
+                                                <div class="icon">
+                                                    <center><img src="assets/images/washing-machine.png" style="padding-top: 9px;"></center>
+                                                </div>
+                                                <span>BeresLaundry</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-25">
+                                        <div class="content">
+                                            <a href="/#/">
+                                                <div class="icon">
+                                                     <center><img src="assets/images/trash.png" style="padding-top: 9px;"></center>
+                                                </div>
+                                                <span>BeresSampah</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-25">
+                                        <div class="content">
+                                            <a href="/#/">
+                                                <div class="icon">
+                                                <center><img src="assets/images/real-estate.png" style="padding-top: 9px;"></center>
+                                                </div>
+                                                <span>BersihRumah</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-25">
+                                        <div class="content">
+                                            <a href="/#/">
+                                                <div class="icon">
+                                                   <center><img src="assets/images/architecture-and-city.png" style="padding-top: 9px;"></center>
+                                                   
+                                                </div>
+                                                <span>BersihKantor</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-25">
+                                        <div class="content">
+                                            <a href="/#/">
+                                                <div class="icon">
+                                                    <center><img src="assets/images/room.png" style="padding-top: 9px;"></center>
+                                                </div>
+                                                <span>BersihKos</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                   
+                                    
+                                    <div class="col-25">
+                                        <div class="content">
+                                            <a href="/#/">
+                                                <div class="icon">
+                                                    <center><img src="assets/images/worker.png" style="padding-top: 9px;"></center>
+                                                </div>
+                                                <span>Tukang/Montir</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end cateogries -->
+
+     <!--  <div id="map" style="width: 100%;height: 400px"></div> -->
+
+
+                        <!-- recommended -->
+                        <div class="recommended product segments-bottom">
+                            <div class="container">
+                                <div class="section-title">
+                                    <h3>Promo
+                                        <a href="#" class="see-all-link">Lihat Semua</a>
+                                    </h3>
+                                </div>
+                                <div class="row">
+                                    <div class="col-50">
+                                        <div class="content content-shadow-product">
+                                            <a href="/product-details/">
+                                                <img src="assets/images/product6.jpg" alt="product">
+                                                <div class="text">
+                                                    <p class="title-product">Cheap elegant sweater with collar</p>
+                                                    <p class="price">IDR 80.00</p>
+                                                    <p class="location">Pontianak</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-50">
+                                        <div class="content content-shadow-product">
+                                            <a href="/product-details/">
+                                                <img src="assets/images/product7.jpg" alt="product">
+                                                <div class="text">
+                                                    <p class="title-product">Responsive mouse just fits in your hand</p>
+                                                    <p class="price">IDR 59.00</p>
+                                                    <p class="location">Pontianak</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-50">
+                                        <div class="content content-shadow-product">
+                                            <a href="/product-details/">
+                                                <img src="assets/images/product8.jpg" alt="product">
+                                                <div class="text">
+                                                    <p class="title-product">Loafers with genuine leather, guaranteed</p>
+                                                    <p class="price">IDR 299.99</p>
+                                                    <p class="location">Pontianak</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-50">
+                                        <div class="content content-shadow-product">
+                                            <a href="/product-details/">
+                                                <img src="assets/images/product9.jpg" alt="product">
+                                                <div class="text">
+                                                    <p class="title-product">Long-sleeved gray sweater, soft material</p>
+                                                    <p class="price">IDR 90.00</p>
+                                                    <p class="location">Pontianak</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-50">
+                                        <div class="content content-shadow-product">
+                                            <a href="/product-details/">
+                                                <img src="assets/images/product10.jpg" alt="product">
+                                                <div class="text">
+                                                    <p class="title-product">Thick jacket suitable for winter</p>
+                                                    <p class="price">IDR 145.00</p>
+                                                    <p class="location">Pontianak</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-50">
+                                        <div class="content content-shadow-product">
+                                            <a href="/product-details/">
+                                                <img src="assets/images/product11.jpg" alt="product">
+                                                <div class="text">
+                                                    <p class="title-product">Shirt with long sleeve collar - black</p>
+                                                    <p class="price">IDR 88.00</p>
+                                                    <p class="location">Pontianak</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end recommended -->
+
+                        <!-- end home -->
+                    </div>
+                    
+                    
+                    <div id="tab-account" class="page-content tab">
+                        <!-- account buyer -->
+
+                        <!-- navbar -->
+                        <div class="navbar navbar-page">
+                            <div class="navbar-inner">
+                                <div class="left"></div>
+                                <div class="title">
+                                   Akun
+                                </div>
+                                <div class="right">
+                                    <a href="/settings/">
+                                        <i class="fas fa-cog"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end navbar -->
+
+                        <!-- content account -->
+                        <div class="account-buyer segments">
+                            <div class="container">
+                                <div class="header-account content-shadow">
+                                    <img src="assets/images/user-buyer6.png" alt="">
+                                    <div class="title-name">
+                                        <h5>Joko Susanto</h5>
+                                        <p><i class="fas fa-map-marker-alt"></i>Pontianak</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container segments">
+                                <div class="info-balance content-shadow">
+                                    <div class="row">
+                                        <div class="col-50">
+                                            <div class="content-text">
+                                                <p>Your Balance</p>
+                                                <h5>IDR 310.00</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-50">
+                                            <div class="content-button">
+                                                <a href="#" class="button primary-button"><i class="fas fa-wallet"></i>Top Up</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="account-menu">
+                                <div class="list media-list">
+                                    <ul>
+                                        <li>
+                                            <a href="/wishlist/" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <i class="fas fa-heart"></i>
+                                                </div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Wishlist</div>
+                                                    </div>
+                                                    <div class="item-subtitle">All products that you have saved</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/transaction/" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <i class="fas fa-exchange-alt"></i>
+                                                </div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Transaction</div>
+                                                    </div>
+                                                    <div class="item-subtitle">All your transactions are here</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/notification/" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <i class="fas fa-bell"></i>
+                                                </div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Notification</div>
+                                                    </div>
+                                                    <div class="item-subtitle">Transaction, Purchase, Notification update</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/faq/" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <i class="fas fa-question"></i>
+                                                </div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Help</div>
+                                                    </div>
+                                                    <div class="item-subtitle">Need Help, Frequently Asked Questions</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact-seller/" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <i class="fas fa-envelope"></i>
+                                                </div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Contact Seller</div>
+                                                    </div>
+                                                    <div class="item-subtitle">Other questions can contact me</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="item-link item-content">
+                                                <div class="item-media">
+                                                    <i class="fas fa-power-off"></i>
+                                                </div>
+                                                <div class="item-inner">
+                                                    <div class="item-title">Logout</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end  content account -->
+
+                        <!-- end account buyer -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/js/framework7.bundle.min.js"></script>
+    <script src="assets/js/routes.js"></script>
+    <script src="assets/js/app.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8AguK8AiKn0oltaHBfCfpJF2gnPsTmLU&callback=initMap&libraries=&v=weekly" ></script>
+
+<script>
+      "use strict";
+
+      // The following example creates a marker in Stockholm, Sweden using a DROP
+      // animation. Clicking on the marker will toggle the animation between a BOUNCE
+      // animation and no animation.
+      let marker;
+
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 13,
+          center: {
+            lat: 59.325,
+            lng: 18.07
+          }
+        });
+        marker = new google.maps.Marker({
+          map,
+          draggable: true,
+          animation: google.maps.Animation.DROP,
+          position: {
+            lat: 59.327,
+            lng: 18.067
+          }
+        });
+        marker.addListener("click", toggleBounce);
+      }
+
+      function toggleBounce() {
+        if (marker.getAnimation() !== null) {
+          marker.setAnimation(null);
+        } else {
+          marker.setAnimation(google.maps.Animation.BOUNCE);
+        }
+      }
+
+     
+      
+    </script>
+
+
+</body>
+</html>
